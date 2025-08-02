@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BUN N BOX - Fast Food Restaurant</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fff;
+      color: #333;
+    }
+    header {
+      background-color: #ff5e00;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header img {
+      max-height: 80px;
+    }
+    h1 {
+      margin: 10px 0 0 0;
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+    .container {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 0 20px;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    h2 {
+      border-bottom: 2px solid #ff5e00;
+      padding-bottom: 8px;
+      margin-bottom: 15px;
+      color: #ff5e00;
+    }
+    .menu-category {
+      margin-bottom: 20px;
+    }
+    .menu-item {
+      margin-bottom: 12px;
+    }
+    .menu-item strong {
+      font-weight: 700;
+    }
+    .price {
+      float: right;
+      color: #ff5e00;
+      font-weight: 700;
+    }
+    .description {
+      font-style: italic;
+      color: #666;
+    }
+    .buttons {
+      text-align: center;
+      margin: 30px 0;
+    }
+    .btn {
+      background-color: #ff5e00;
+      color: white;
+      border: none;
+      padding: 14px 28px;
+      margin: 10px;
+      font-size: 1.2rem;
+      cursor: pointer;
+      border-radius: 5px;
+      text-decoration: none;
+      display: inline-block;
+      transition: background-color 0.3s ease;
+    }
+    .btn:hover {
+      background-color: #e04e00;
+    }
+    iframe {
+      width: 100%;
+      height: 300px;
+      border: none;
+      border-radius: 8px;
+    }
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 12px 20px;
+    }
+    .social {
+      margin-top: 8px;
+    }
+    .social a {
+      color: white;
+      text-decoration: none;
+      margin: 0 12px;
+      font-weight: bold;
+    }
+    img.food-img {
+      width: 100%;
+      max-width: 300px;
+      border-radius: 8px;
+      margin-top: 8px;
+      margin-bottom: 16px;
+    }
+    @media (min-width: 600px) {
+      .menu-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="https://i.imgur.com/jSZoMr3.png" alt="BUN N BOX Logo" />
+  <h1>BUN N BOX</h1>
+  <p>Fast Food Restaurant - Multan Road, Taj Filling Station</p>
+</header>
+
+<div class="container">
+
+  <section>
+    <h2>Opening Hours</h2>
+    <p>Every day: 11:00 AM – 2:00 AM</p>
+  </section>
+
+  <section>
+    <h2>Menu</h2>
+
+    <div class="menu-category">
+      <h3>Burgers</h3>
+      <div class="menu-item">
+        <span><strong>Sun Set Tangoo</strong><br /><small class="description">Bun, Iceberg, Onion, Tomato, Chicken Fillet, Black Pepper, White Cheese, Sauce</small></span>
+        <span class="price">Rs. 549</span>
+      </div>
+      <div class="menu-item">
+        <span><strong>Classic Coop</strong><br /><small class="description">Bun, Iceberg, Onion, Tomato, White Cheese Slice, Chicken Fillet, Basic Sauce</small></span>
+        <span class="price">Rs. 499</span>
+      </div>
+      <div class="menu-item">
+        <span><strong>Devil's Cluck</strong><br /><small class="description">Bun, Iceberg, Onion, Tomato, Chicken Fillet, White Cheese Slice, Jalapeno, Red Sauce</small></span>
+        <span class="price">Rs. 549</span>
+      </div>
+      <div class="menu-item">
+        <span><strong>Comfort Kick</strong><br /><small class="description">Bun, Iceberg, Onion, Tomato, Chicken Fillet, White Cheese Slice, Red Sauce</small></span>
+        <span class="price">Rs. 499</span>
+      </div>
+      <div class="menu-item">
+        <span><strong>Chicken Petie Burger</strong><br /><small class="description">Bun, Chicken Patti, Jalapeno, Tomato, Onion, Chipotle, Lettuce</small></span>
+        <span class="price">Rs. 349</span>
+      </div>
+      <div class="menu-item">
+        <span><strong>Kids Burger</strong><br /><small class="description">Bun, Chicken Patti, Mayo, Lettuce</small></span>
+        <span class="price">Rs. 299</span>
+      </div>
+      <div class="menu-item">
+        <span><strong>Zinger Burger</strong><br /><small class="description">Bun, Zinger Thigh, Marinade, Mayo, Iceberg, Chipotle</small></span>
+        <span class="price">Rs. 449</span>
+      </div>
+    </div>
+
+    <div class="menu-category">
+      <h3>Injected Broast</h3>
+      <div class="menu-item">
+        <span><strong>Quarter Broast</strong><br /><small class="description">2 pcs (1 Leg, 1 Thigh), 1 Bun, 1 Sauce (Choice)</small></span>
+        <span class="price">Rs. --</span>
+      </div>
+      <div class="menu-item">
+        <span><strong>Half Broast</strong><br /><small class="description">4 pcs (2 Legs, 2 Thigh), 1 Bun, 2 Sauces (Choice)</small></span>
+        <span class="price">Rs. --</span>
+      </div>
+      <div class="menu-item">
+        <span><strong>Full Broast</strong><br /><small class="description">8 pcs (4 Legs, 4 Thigh), 2 Buns, 3 Sauces (Choice)</small></span>
+        <span class="price">Rs. --</span>
+      </div>
+    </div>
+
+    <!-- Add more categories here as needed -->
+
+  </section>
+
+  <section>
+    <h2>Order Now</h2>
+    <div class="buttons">
+      <a href="tel:+923390830602" class="btn">Call Now</a>
+      <a href="https://wa.me/923390830602" target="_blank" class="btn">Order on WhatsApp</a>
+    </div>
+  </section>
+
+  <section>
+    <h2>Location</h2>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3442.960686345573!2d71.48603121478353!3d31.4612079814398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39190427d049de91%3A0x4a5b43f92e76f4a8!2sTaj%202%20Filling%20Station%20Near%20Phool%20Nagar%20Bypass%20Multan%20Road!5e0!3m2!1sen!2s!4v1691085555555!5m2!1sen!2s"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+  </section>
+
+  <section>
+    <h2>Follow Us</h2>
+    <p>Find us on social media:</p>
+    <div class="social">
+      <a href="https://www.tiktok.com/@bunnbox3" target="_blank">TikTok</a>
+      <!-- Add more links if needed -->
+    </div>
+  </section>
+
+</div>
+
+<footer>
+  <p>© 2025 BUN N BOX | Fast Food Restaurant | Multan Road Taj Filling Station</p>
+</footer>
+
+</body>
+</html>
